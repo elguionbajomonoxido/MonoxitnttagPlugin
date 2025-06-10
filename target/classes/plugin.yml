@@ -1,0 +1,32 @@
+name: MonoxiTntTag
+main: com.monoxitnttag.MonoxitnttagPlugin
+version: 2.0
+api-version: 1.20
+softdepend: [PlaceholderAPI]
+commands:
+  MonoxiTntTag:
+    description: Comando principal para el minijuego TNT Tag
+    usage: /<command> start <jugadores> <tiempo> | setitem <itemID> | reset | reload
+    aliases: [tnttag, mofu]
+  MonoxiTntTag reset:
+    description: Reinicia el minijuego
+    usage: /<command>
+  MonoxiTntTag stop:
+    description: Termina el minijuego
+    usage: /<command>
+  MonoxiTntTag reload:
+    description: Recarga la configuración del plugin
+    usage: /<command>
+permissions:
+  monoxitnttag.start:
+    description: Permite iniciar el minijuego
+    default: op
+  monoxitnttag.stop:
+    description: Permite terminar el minijuego
+    default: op
+  monoxitnttag.reset:
+    description: Permite reiniciar el minijuego
+    default: op
+  monoxitnttag.reload:
+    description: Permite recargar la configuración
+    default: op

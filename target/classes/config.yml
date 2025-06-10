@@ -1,0 +1,14 @@
+tnt_tag:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3955
+  type: TNT
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"text":"","extra":[{"text":"TNT Activa","color":"red","bold":true}]}'
+    item-name: '{"text":"active_tnt","color":"white"}'
+    lore:
+      - '{"text":"¡Esta TNT está activa!","color":"white","bold":true}'
+      - '{"text":"Pásala a otro jugador","color":"white","bold":true}'
+      - '{"text":"antes de que explote...","color":"red","bold":true}'
+    custom: H4sIAAAAAAAA/wXBSwrAMAgFwEdW1ksGiS8g5EfsosfvjAIKjZczzZ1XUMIhfX+VdlPwLJvMY42QE6txMIEfR+PVGTcAAAA=

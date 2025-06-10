@@ -1,0 +1,8 @@
+com\monoxitnttag\commands\MonoxitnttagTabCompleter.class
+com\monoxitnttag\util\ItemStackUtil.class
+com\monoxitnttag\MonoxitnttagPlugin$1.class
+com\monoxitnttag\MonoxitnttagPlugin.class
+com\monoxitnttag\commands\MonoxitnttagCommand.class
+com\monoxitnttag\managers\MessageManager.class
+com\monoxitnttag\listeners\TntTagListener.class
+com\monoxitnttag\placeholders\TntTagPlaceholder.class
